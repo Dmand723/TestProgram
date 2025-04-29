@@ -1,0 +1,401 @@
+Dawson Simmons P 1/2
+Question 1
+Whitch of the following is NOT a valid way to comment a single line of code in Python?
+// This is a comment
+# This is a comment
+''' This is a comment '''
+None of the above 
+1
+A doubble slash is used for inter divsion in Python and will try to do math and not comment
+Question 2
+my_list = [1, 2, 3, 4, 5]~print(my_list[1:3])~what will be printed
+[1, 2]
+[2, 3]
+[2, 3, 4]
+[1, 3]
+2
+my_list[1:3] is a list slicing operation. It selects a subset of elements from the list my_list. Starting with the 1st position (included) through the 3rd position (excuded)
+Question 3
+x = 10~y = 5~x = x + y~print(x)~what will be printed
+15
+10
+5
+105
+1
+x = x + y will add the two inters together and assign it to x and print x witch is 15
+Question 4
+Which of the following statements is true about Python's 'pass' statement?
+'pass' statement is used for documentation purposes only.
+'pass' statement does nothing and acts as a null operation.
+'pass' statement raises an exception.
+'pass' statement is used to exit from loops.
+4
+A pass statement is used for exiting that block of code and "passing" it
+Question 5
+What does the range() function in Python return?
+A list containing arithmetic progression of integers
+A generator object yielding arithmetic progression of integers
+A tuple containing arithmetic progression of integers
+A dictionary containing arithmetic progression of integers
+2
+range() function returns a generator object yielding arithmetic progression of integers. 
+Question 6
+What is the output of the following code snippet?a = [1, 2, 3]~b = a~b[0] = 5~print(a)
+[1, 2, 3]
+[5, 2, 3]
+[1, 2, 3, 5]
+Error
+2
+Python lists are mutable objects. When you assign b = a, you are not creating a new list, rather b becomes a reference to the same list object as a.
+Question 7
+Which of the following is used to open a file in Python for reading and writing?
+r
+w
+r+
+a
+3
+r+ mode is used to open a file in Python for both reading and writing. It allows you to read from and write to the file.
+Question 8
+What will be the output of the following code?~print("Python"[-6])
+P
+y
+t
+IndexError
+1
+Python allows negative indexing. -6 refers to the 6th character from the end of the string, which is 'P'.
+Question 9
+In Python, what does the __init__ method represent in a class?
+It is a destructor method.
+It is a constructor method.
+It is a static method.
+It is an instance method.
+2
+__init__ method is called automatically when a new instance of a class is created. It initializes the instance.
+Question 10
+What does the import statement do in Python?
+It exports variables and functions from one module to another.
+It imports variables and functions from one module to another.
+It creates a new module.
+It defines a new module
+2
+The import statement is used to import variables and functions from one module into another Python script or module.
+Question 11
+Which of the following is a correct way to comment multiple lines in Python?
+/* Comment /
+# Comment
+' Comment
+/ Comment */
+2
+In Python, you use the # symbol to comment out single or multiple lines.
+Question 12
+What does the pop() method do in Python?
+Appends an element to the end of the list
+Removes the first occurrence of a value from the list
+Removes and returns the element at the specified position
+Returns the number of occurrences of a value in the list
+3
+The pop() method removes and returns the element at the specified position from a list.
+Question 13
+What is the output of the following code?~def func(x, y, z=0):~return x + y + z~print(func(1, 2, 3))
+6
+3
+5
+Error
+1
+The function func() takes three parameters, where z has a default value of 0. When called with func(1, 2, 3), it sums all three values: 1 + 2 + 3 = 6.
+Question 14
+Who is the author of this test?
+Ur mom
+Santa Clause 
+Dawson
+Eric Broadbent
+3
+Its at the top of the test
+Question 15
+What will be the output of the following code? x = 10~def func():~  print(x)~func()
+10
+Error
+None
+Undefined
+1
+The variable x is accessed from within the function func(), and Python looks for it in the global scope. 
+Question 16
+What does the continue statement do in Python?
+Exits the loop
+Skips the rest of the code in the loop and continues with the next iteration
+Terminates the program
+None of the above
+2
+The continue statement skips the rest of the code in the loop and continues with the next iteration of the loop.
+Question 17
+What is the output of the following code?~a = [1, 2, 3]~b = a[:]~b[0] = 5~print(a)
+[1, 2, 3]
+[5, 2, 3]
+[1, 2, 3, 5]
+Error
+1
+Using b = a[:] creates a shallow copy of list a, so modifying b does not affect a. Therefore, the output is [1, 2, 3].
+Question 18
+Which of the following is used to remove duplicate elements from a list in Python?
+set()
+remove()
+clear()
+pop()
+1
+The set() function can be used to remove duplicate elements from a list since sets do not allow duplicates.
+Question 19
+What is the output of the following code?~print(9//2)
+4.5
+4
+5
+4.0
+2
+The // operator performs integer division in Python, discarding any fractional part. Thus, 9 // 2 equals 4.
+Question 20
+Which of the following statements is true regarding Python dictionaries?
+Dictionaries are ordered collections.
+Keys in dictionaries must be immutable.
+Dictionaries can have duplicate keys.
+Dictionary keys must be integers.
+2
+Keys in dictionaries must be immutable because they are used as hash keys. This means that keys like lists or dictionaries cannot be used as dictionary keys.
+Question 21
+What is the output of the following code?~print(list(range(5)))
+[0, 1, 2, 3, 4]
+[1, 2, 3, 4, 5]
+[0, 1, 2, 3, 4, 5]
+[[0], [1], [2], [3], [4]]
+1
+The range(5) function generates numbers from 0 to 4 (excluding 5) and list() converts the range object to a list, so the output is [0, 1, 2, 3, 4].
+Question 22
+What does the sorted() function return in Python?
+A list containing the sorted elements of a given iterable.
+A sorted dictionary.
+A tuple containing the sorted elements of a given iterable.
+An integer representing the length of the iterable.
+1
+The sorted() function returns a new sorted list containing all items from the iterable it receives as an argument.
+Question 23
+What will be the output of the following code?~print(''.join(['a', 'b', 'c']))
+abc
+['a', 'b', 'c']
+(a, b, c)
+Error
+1
+The join() method concatenates each element of the list into a single string with the specified delimiter (in this case, an empty string). Thus, the output is abc.
+Question 24
+What is the authors favorite food (Its Shrimp)
+Salad
+Cake
+Shrimp
+Hot Dog
+3
+I told you the correct answer
+Question 25
+What is the purpose of the enumerate() function in Python?
+To iterate over elements in a sequence and return their indices and values
+To filter elements in a sequence based on a given condition
+To sort elements in a sequence in ascending order
+To reverse the elements in a sequence
+1
+The enumerate() function in Python is used to iterate over elements in a sequence while also providing their indices.
+Question 26
+Which of the following is a correct way to open a file in Python and ensure it is automatically closed when done?
+Using the open() function with the mode 'r'
+Using the open() function with the mode 'w+'
+Using the with statement along with open() function
+Using the file() function with the mode 'a'
+3
+The with statement ensures that the file is automatically closed once the block of code is exited, making it a safer option for file operations
+Question 27
+What is the output of the following code?~x = 'Python'~print(x[::-1])
+nohtyP
+Pytho
+P
+Error
+1
+x[::-1] is a slicing operation that reverses the string x, so the output will be 'nohtyP'.
+Question 28
+What is the output of the following code?a = {1: 'one', 2: 'two'}~print(a.get(3, 'not found'))
+not found
+3
+Error
+None
+1
+The get() method of dictionaries returns the value for the given key if it exists, otherwise it returns the specified default value. Since the key 3 is not in the dictionary, it returns 'not found'.
+Question 29
+Which of the following is the correct way to concatenate two dictionaries in Python 3.5 and above?
+dict3 = dict1 + dict2
+dict3 = dict1.append(dict2)
+dict3 = dict1 | dict2
+dict3 = dict1.extend(dict2)
+3
+In Python 3.5 and above, you can use the | operator to concatenate two dictionaries.
+Question 30
+What does the pickle module in Python provide?
+Serialization of Python objects
+Sorting algorithms
+Graphical user interface (GUI) components
+Regular expression operations
+1
+The pickle module in Python is used for serializing and deserializing Python objects, allowing them to be saved to and restored from files.
+Question 31
+What does the __str__ method do in Python?
+It converts the object to a string representation.
+It converts the object to an integer.
+It converts the object to a list.
+It converts the object to a dictionary.
+1
+The __str__ method in Python is used to define the string representation of an object when using the str() function or print() statement.
+Question 32
+Which of the following is the correct way to define a lambda function that adds two numbers?
+lambda a, b: return a + b
+lambda a, b: {a + b}
+lambda a, b: a + b
+def add(a, b): return a + b
+3
+Lambda functions in Python are defined using the lambda keyword followed by parameters and an expression. No return statement is needed in lambda functions.
+Question 33
+What is the output of the following code?~print(3 * 'ab' + 'c')
+'abababc'
+'ababababababab'
+'ababababac'
+'abababab'
+2
+The expression 3 * 'ab' repeats the string 'ab' three times, and then concatenates the string 'c' at the end.
+Question 34
+What does the super() function do in Python?
+Calls the parent class constructor.
+Calls the child class constructor.
+Calls a method in the parent class.
+Calls a method in the child class.
+1
+The super() function in Python is used to call methods and constructors of the parent class within a subclass.
+Question 35
+What is the purpose of the else clause in a try-except block in Python?
+It is executed if an exception occurs.
+It is executed if no exception occurs.
+It is used to raise an exception.
+It is used to define custom exceptions.
+2
+The else clause in a try-except block is executed if no exception occurs in the try block.
+Question 36
+What does the any() function in Python return?
+True if all elements in the iterable are True.
+True if any element in the iterable is True.
+True if all elements in the iterable are False.
+True if any element in the iterable is False.
+2
+The any() function in Python returns True if any element in the iterable is True, otherwise it returns False.
+Question 37
+Which one of these are an input device
+Mouse 
+Speakers
+Printer
+Tv
+1
+Speakers, printers, and tv's are all output devices
+Question 38
+What does the os.path.join() function do in Python?
+Concatenates two strings
+Joins one or more path components
+Returns the current working directory
+Deletes a file or directory
+2
+The os.path.join() function in Python is used to join one or more path components intelligently. It constructs a path using the appropriate separator for the current operating system.
+Question 39
+what does the G stand for in RGB
+Go
+Great
+Green
+Group
+3
+RGB is a color model that stands for Red Blue Green
+Question 40
+What is the output of the following code?~print('Hello'.find('o'))
+4
+1
+3
+2
+1
+The find() method in Python returns the lowest index in the string where the substring 'o' is found. Since indexing starts from 0, the output is 4.
+Question 41
+Which of the following statements about Python's break statement is true?
+It terminates the program.
+It skips the current iteration of a loop.
+It exits the innermost loop.
+It raises an exception.
+3
+The break statement in Python is used to exit the innermost loop (for loop or while loop) that it is currently executing.
+Question 42
+How do you spell pneumonoultramicroscopicsilicovolcanoconiosis
+Bruh idk
+pneumonoultramicroscopicsilicovolcanoconiosi
+pneumonoultramicroscopicsilicovolcanoconiosis
+I give up
+3
+I showed you how to spell it and number 2 is missing the s at the end (This is the longest word in English)
+Question 43
+What does the __name__ variable represent in Python?
+The name of the module
+The name of the function
+The name of the class
+The name of the object
+1
+The __name__ variable in Python represents the name of the module. When a script is executed, __name__ is set to '__main__'.
+Question 44
+What is the output of the following code?~print('Hello, {0}!'.format('Alice'))
+Hello, Alice!
+Hello, {0}!
+Hello, !
+Error
+1
+The format() method in Python substitutes placeholders (such as {0}) with the provided arguments. In this case, 'Alice' is substituted for {0}, resulting in Hello, Alice!.
+Question 45
+Which of the following is the correct way to open a file in Python for writing binary data?
+open('file.txt', 'wb')
+open('file.txt', 'w')
+open('file.txt', 'rb')
+open('file.txt', 'b')
+1
+To open a file in Python for writing binary data, you use the mode 'wb', where 'w' stands for write mode and 'b' stands for binary mode.
+Question 46
+Which of the following is true about Python's assert statement?
+It raises an AssertionError if the expression is True.
+It raises an AssertionError if the expression is False.
+It terminates the program.
+It skips the current iteration of a loop.
+2
+The assert statement in Python raises an AssertionError if the expression provided evaluates to False.
+Question 47
+What does the split() method in Python return when called on a string?
+A list containing substrings separated by spaces
+A dictionary containing substrings
+A string containing substrings separated by spaces
+A tuple containing substrings
+1
+The split() method in Python returns a list of substrings obtained by splitting the original string based on the specified delimiter (which is whitespace by default).
+Question 48
+Which of the following statements about Python's len() function is true?
+It returns the length of a dictionary.
+It returns the length of a string.
+It returns the length of a set.
+All of the above
+4
+The len() function in Python returns the number of elements in a sequence (such as strings, lists, tuples, dictionaries, or sets). Therefore, all the statements are true.
+Question 49
+What period is the author from
+3
+1/2
+4/5
+6/7
+2
+It should be at the top of your test
+Question 50 
+How many Questions are in this test (this is the last Question)
+40
+22
+51
+50
+4
+I told you this is the last Question and it says its Question 50

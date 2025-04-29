@@ -1,0 +1,32 @@
+Dawson Simmons P 1/2
+Question 1
+Whitch of the following is NOT a valid way to comment a single line of code in Python?
+// This is a comment
+# This is a comment
+''' This is a comment '''
+None of the above 
+1
+A doubble slash is used for inter divsion in Python and will try to do math and not comment
+logic
+my_list = [1, 2, 3, 4, 5]~print(my_list[1:3])
+[1, 2]
+[2, 3]
+[2, 3, 4]
+[1, 3]
+2
+my_list[1:3] is a list slicing operation. It selects a subset of elements from the list my_list.~The slicing notation [1:3] means to select elements starting from index 1 (inclusive) up to index 3 (exclusive).~ so it will start with the index position 1 in the lis and include it and end with the 3rd poosition and exclude it 
+logic
+x = 10~y = 5~x = x + y~print(x)
+15
+10
+5
+105
+x = x + y will add the two inters together and assign it to x and print x witch is 15
+1
+syntax
+Which of the following statements is true about Python's 'pass' statement?
+'pass' statement is used for documentation purposes only.
+'pass' statement does nothing and acts as a null operation.
+'pass' statement raises an exception.
+'pass' statement is used to exit from loops.
+4
